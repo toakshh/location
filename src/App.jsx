@@ -121,7 +121,7 @@ function App() {
         </select>
       </div>
       <div>{
-        cityValue && stateValue && countryValue && 
+        cityValue &&  
         <p>
         You selected <strong>{cityValue && cityValue}</strong>,<strong>{stateValue && stateValue}</strong> and <strong>{ countryValue && countryValue}</strong></p>
         }
